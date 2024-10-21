@@ -2,10 +2,6 @@ class BankAccount {
     private String owner;
     private double balance;
 
-    public BankAccount() {
-        this("", 0.0);
-    }
-
     public BankAccount(String owner) {
         this(owner, 0.0);
     }
@@ -24,7 +20,7 @@ class BankAccount {
     }
 
     public void subtractBalance(double amount) {
-        if (amount > balance) {
+        if (this.balance < 1 || amount > this.balance) {
             System.out.println("Insufficient balance");
         } else {
             this.balance -= amount;
