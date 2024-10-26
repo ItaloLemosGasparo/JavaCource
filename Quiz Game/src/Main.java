@@ -6,7 +6,7 @@ public class Main {
         AddQuestions(service);
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("Bem-vindo ao Quiz! Digite a opção correta para cada pergunta.");
+        System.out.println("Welcome to the Quiz! Write the right answer for each question.");
 
         for (Question question : service.questions) {
             if (!question.isDone()) {
@@ -16,7 +16,7 @@ public class Main {
                 System.out.println("3) " + question.getOpt3());
                 System.out.println("4) " + question.getOpt4());
 
-                System.out.print("Sua resposta (digite o número da opção): ");
+                System.out.print("Your answer (enter option number):");
                 int userAnswer = sc.nextInt();
                 service.checkAnswer(question, userAnswer);
             }
@@ -28,21 +28,21 @@ public class Main {
 
     public static void AddQuestions(QuestionService _service) {
         _service.questions.add(new Question(1,
-                "Quem nasceu primeiro, o ovo ou a galinha?",
-                "O ovo",
-                "A galinha",
-                "Não sei",
-                "Todas as respostas",
-                "Não sei")
+                "Which came first, the chicken or the egg?",
+                "The egg",
+                "The chicken",
+                "I don't know",
+                "All answers",
+                "I don't know")
         );
 
         _service.questions.add(new Question(2,
-                "Por que a galinha atravessou a rua?",
-                "Para chegar ao outro lado",
-                "Para ser radical",
-                "Para beber água",
-                "Todas as respostas",
-                "Para chegar ao outro lado")
+                "Why did the chicken cross the road?",
+                "To get to the other side",
+                "To be radical",
+                "To drink water",
+                "All answers",
+                "To get to the other side")
         );
     }
 }

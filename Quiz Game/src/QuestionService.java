@@ -21,15 +21,15 @@ public class QuestionService {
         };
 
         if (selectedAnswer != null && selectedAnswer.equals(question.getAnswer())) {
-            System.out.println("Correto!\n");
+            System.out.println("Correct!\n");
             score++;
         } else {
-            System.out.println("Errado! A resposta correta era: " + question.getAnswer() + "\n");
+            System.out.println("Wrong! The right answer was: " + question.getAnswer() + "\n");
         }
         question.setDone(true);
     }
 
     public void showResults() {
-        System.out.println("Quiz finalizado! Você acertou " + score + " de " + questions.size() + " perguntas.");
+        System.out.println("Quiz completed! You got it right: " + score + " of " + questions.size() + " questions.");
     }
 }
