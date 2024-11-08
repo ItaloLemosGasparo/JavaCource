@@ -16,7 +16,7 @@ public class Main {
                 System.out.println("3) " + question.getOpt3());
                 System.out.println("4) " + question.getOpt4());
 
-                System.out.print("Your answer (enter option number):");
+                System.out.print("Your answer (enter option number): ");
                 int userAnswer = sc.nextInt();
                 service.checkAnswer(question, userAnswer);
             }

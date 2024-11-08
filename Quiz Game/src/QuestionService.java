@@ -5,12 +5,6 @@ public class QuestionService {
     public List<Question> questions = new ArrayList<>();
     private int score = 0;
 
-    public void DisplayQuestions() {
-        questions.stream().filter(question -> !question.isDone()).forEach(question ->
-                System.out.println(question.getId() + ": " + question.getQuestion())
-        );
-    }
-
     public void checkAnswer(Question question, int userAnswer) {
         String selectedAnswer = switch (userAnswer) {
             case 1 -> question.getOpt1();
