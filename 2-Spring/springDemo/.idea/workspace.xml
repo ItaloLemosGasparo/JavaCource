@@ -5,29 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7aa9ccc3-2093-4264-ac7a-5a57a9d5dca6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../SpringDemo/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringDemo/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringDemo/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringDemo/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringDemo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringDemo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringDemo/src/main/java/com/italo/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringDemo/src/main/java/com/italo/developer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringDemo/src/main/resources/spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringDemo/src/test/java/com/italo/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/italo/Alien.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/italo/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/italo/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/italo/Desktop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/italo/Laptop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/italo/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/italo/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/italo/Alien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/italo/Alien.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/italo/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/italo/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/italo/Desktop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/italo/Desktop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/italo/Laptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/italo/Laptop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,14 +40,30 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/italo/OneDrive/Área de Trabalho/Curso Java/Spring/springDemo2/src/main/java/com/italo"
+    "last_opened_file_path": "C:/Users/italo/OneDrive/Área de Trabalho/Curso Java/Spring/springDemo2/src/main/java/com/italo/config"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\italo\OneDrive\Área de Trabalho\Curso Java\Spring\springDemo2\src\main\java\com\italo\config" />
       <recent name="C:\Users\italo\OneDrive\Área de Trabalho\Curso Java\Spring\springDemo2\src\main\java\com\italo" />
       <recent name="C:\Users\italo\OneDrive\Área de Trabalho\Curso Java\Spring\springDemo2\src\main\resources" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="springDemo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="springDemo" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
